@@ -39,3 +39,17 @@ SWITCH( TRUE(),
     NOT(IsExpense) && [Variance] > 0, "#47B39C", -- Revenue Over Budget (Green)
     "#000000"
 )
+
+📈 Visuals & UI
+Used Visual Level Filtering to handle "Future Months" (Planning view vs. Actuals view).
+
+Designed a "Card-based" UI with shadow effects for a modern application feel.
+
+Key Visuals: Matrix (Drill-down), Waterfall Chart (Variance Drivers), KPI Cards.
+
+🚀 How to Run
+Download the .pbix file.
+
+Change the "Source" setting in Power Query to point to your local folder path.
+
+Click Refresh.
