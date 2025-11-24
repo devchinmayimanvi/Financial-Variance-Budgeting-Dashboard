@@ -39,6 +39,7 @@ SWITCH( TRUE(),
     NOT(IsExpense) && [Variance] > 0, "#47B39C", -- Revenue Over Budget (Green)
     "#000000"
 )
+```
 
 📈 Visuals & UI
 Used Visual Level Filtering to handle "Future Months" (Planning view vs. Actuals view).
